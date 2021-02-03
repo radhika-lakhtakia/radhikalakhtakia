@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/radhikalakhtakia/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/radhikalakhtakia/static/js/main.a1da1432.chunk.js",
+    "main.js.map": "/radhikalakhtakia/static/js/main.a1da1432.chunk.js.map",
+    "runtime-main.js": "/radhikalakhtakia/static/js/runtime-main.10d3ea41.js",
+    "runtime-main.js.map": "/radhikalakhtakia/static/js/runtime-main.10d3ea41.js.map",
+    "static/js/2.2cc3efe6.chunk.js": "/radhikalakhtakia/static/js/2.2cc3efe6.chunk.js",
+    "static/js/2.2cc3efe6.chunk.js.map": "/radhikalakhtakia/static/js/2.2cc3efe6.chunk.js.map",
+    "static/js/3.2e5180fd.chunk.js": "/radhikalakhtakia/static/js/3.2e5180fd.chunk.js",
+    "static/js/3.2e5180fd.chunk.js.map": "/radhikalakhtakia/static/js/3.2e5180fd.chunk.js.map",
+    "index.html": "/radhikalakhtakia/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/radhikalakhtakia/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.2cc3efe6.chunk.js.LICENSE.txt": "/radhikalakhtakia/static/js/2.2cc3efe6.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/radhikalakhtakia/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10d3ea41.js",
+    "static/js/2.2cc3efe6.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.a1da1432.chunk.js"
+  ]
+}
