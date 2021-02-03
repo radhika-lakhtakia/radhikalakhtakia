@@ -2,7 +2,7 @@
   "name": "radhikalakhtakia",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://radhika-lakhtakia.github.io/radhikalakhtakia",
+  "homepage": "https://radhika-lakhtakia.github.io/radhikalakhtakia",
   "dependencies": {
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
