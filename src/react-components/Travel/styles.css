@@ -1,0 +1,25 @@
+@import url(//db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+body{
+	overflow-y: scroll;
+}
+
+.quote {
+	font-family: 'EB Garamond', serif;
+	color: black;
+	font-style: italic;
+	font-size: 32px;
+	text-align: center;
+}
+
+.author {
+	font-family: Europa;
+	color: black;
+	font-size: 20px;
+}
+
+.effect {
+	font-size: 38px;
+	font-style: bold;
+}

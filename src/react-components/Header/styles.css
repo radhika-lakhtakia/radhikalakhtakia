@@ -1,0 +1,29 @@
+/* Styles for the Header React component */
+.header {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 43.5px;
+  text-align: center;
+  background: #E8DBD8;
+  vertical-align: middle;
+}
+
+.button {
+	text-decoration: none;
+	padding-top: 11px;
+	padding-bottom: 11px; 
+	font-size: 18px;
+	font-weight: 500;
+	color: #111a29;
+  text-align: center;
+  border-radius: 20px;
+  width: 200px;
+  display: inline-block;
+    
+}
+
+.button.active, .button:hover {
+	background-color: #111A29;
+	color: #E8DBD8;
+	border-radius: 0;
+}

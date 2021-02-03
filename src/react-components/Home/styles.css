@@ -1,0 +1,61 @@
+
+/* Styles for the Home React component */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-image {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("./static/rads1.jpg");
+  background-position: center;
+}
+
+.middle {
+  width: 75%;
+  height: 100%;
+  margin-top: 6%;
+  background-color: #c9c9c9;
+}
+
+.title {
+  font-size: 58px;
+  font-weight: 900;
+  color: #111a29;
+}
+
+.subtitle {
+  margin-top: -40px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #111a29;
+}
+
+.hero-text {
+  display: table;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.home__button-link {
+  text-decoration: none;
+}
+
+.MuiButton-root.__button {
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111a29;
+}
+
+/* Increase specificity to override component styles */
+.MuiButton-root.__button:hover {
+  background-color: transparent;
+  border-bottom: 4px #111a29 solid;
+  border-radius: 0;
+}

@@ -1,0 +1,111 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+input[type=text], input[type=email], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #E8DBD8;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+input[type=submit] {
+  width: 13%;
+  background-color: #E8DBD8;
+  border: 2px #111a29 solid;
+  color: #111a29;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input[type=submit]:hover {
+  background-color: #111a29;
+  color: #E8DBD8;
+}
+
+label {
+  color: #111a29;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+form {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -2%;
+}
+
+.section-title{
+  margin-left: 3%;
+}
+
+.section2 {
+  margin-right: 40%;
+}
+
+.section1 {
+  right: 16%;
+  width: 21%;
+  height: 78%;
+  position: absolute;
+  background-image: url("./static/me.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.section3 {
+  right: 9%;
+  width: 5%;
+  position: absolute;
+}
+
+.fa {
+  padding: 20px;
+  margin-top: 5px;
+  font-size: 18px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github {
+  color: white;
+  background: #211F1F;
+}

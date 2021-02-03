@@ -1,0 +1,76 @@
+/* Styles for the Home React component */
+body {
+  background-color: #CFA697;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./static/Amsterdam-One/AmsterdamFourTtf-owMx4.ttf);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section {
+  position: absolute;
+  left: 35%;
+}
+
+.about-me {
+  color: #111a29;
+  text-align: justify;
+  width: 80%;
+  margin-left: 5%;
+  margin-top: -2%;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-title {
+  color: #111a29;
+  font-size: 46px;
+  font-family: myFirstFont;
+  font-weight: 200;
+}
+
+.img-placement {
+  left: 10%;
+  width: 25%;
+  height: 81%;
+  position: absolute;
+  background-image: url("./static/me2.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.icon {
+  width: 4%;
+  vertical-align: bottom;
+  text-align: center;
+  margin-bottom: -0.5%;
+  margin-right: -3.5%;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #111a29;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 5%;
+  padding-right: 30px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #202836;
+}
