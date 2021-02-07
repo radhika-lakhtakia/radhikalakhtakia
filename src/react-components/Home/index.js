@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
+import { LinkContainer} from "react-router-bootstrap";
 
 import "./styles.css";
 
@@ -12,10 +13,18 @@ class Home extends React.Component {
       <div className="bg-image center">
         <div className="hero-text">
           <br/>
-          <Button className="__button" href="/About-Me">About Me</Button>
-          <Button className="__button" href="/Projects">Projects</Button>
-          <Button className="__button" href="/Contact-Me">Contact Me</Button>
-          <Button className="__button" href="/Travel-Gallery">Travel Gallery</Button>
+          <LinkContainer to='/About-Me' className='__button'>
+            <Button className="__button">About Me</Button>
+          </LinkContainer>
+          <LinkContainer to='/Projects' className='__button'>
+            <Button className="__button">Projects</Button>
+          </LinkContainer>
+          <LinkContainer to='/Contact-Me' className='__button'>
+            <Button className="__button">Contact Me</Button>
+          </LinkContainer>
+          <LinkContainer to='/Travel-Gallery' className='__button'>
+            <Button className="__button">Travel Gallery</Button>
+          </LinkContainer>
           <br/>
 		</div>
 		<div className="hero-text">
